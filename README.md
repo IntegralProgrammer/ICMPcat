@@ -6,7 +6,7 @@ A *netcat* inspired utility for bidirectional communication over ICMP (ping) tra
 
 ### Server
 
-``bash
+```bash
 sudo sysctl net.ipv4.icmp_echo_ignore_all=1
 sudo python icmpcat_server.py
 ```
